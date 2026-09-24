@@ -2,7 +2,7 @@
 # Number Challenge Application
 
 ## Overview
-The Number Challenge Application is an interactive, menu-driven Python terminal program that performs standard mathematical checks, sequence generation, and digit manipulations[cite: 1, 2]. The application has been refactored from a single script into a modular architecture to separate core operational logic from user interface interactions, improving code maintainability and readability[cite: 1, 2].
+The Number Challenge Application is an interactive, menu-driven Python terminal program that performs standard mathematical checks, sequence generation, and digit manipulations. The application has been refactored from a single script into a modular architecture to separate core operational logic from user interface interactions, improving code maintainability and readability.
 
 ## Features
 - **Prime Operations:**
@@ -28,25 +28,17 @@ The Number Challenge Application is an interactive, menu-driven Python terminal 
    ```bash
    git clone [https://github.com/YOUR_GITHUB_USERNAME/number-challenge.git](https://github.com/YOUR_GITHUB_USERNAME/number-challenge.git)
    cd number-challenge
-Instructions for Testing
-Functional Testing (Menu Selection):
+## 5. Instructions for Testing
 
-Run python main.py and select option 1. Enter 7 to confirm the output is PRIME[cite: 2].
+### Functional Testing (Menu Selection)
+- **Prime Check:** Run `python main.py`, select option `1`, enter `7`, and confirm output is `PRIME`.
+- **Find Factors:** Select option `2`, enter `6`, and confirm output factors are `[1, 2, 3, 6]`.
+- **Fibonacci Series:** Select option `3`, enter `5`, and confirm output is `[0, 1, 1, 2, 3]`.
+- **Reverse Number:** Select option `4`, enter `1234`, and confirm output is `4321`.
+- **Sum of Digits:** Select option `5`, enter `1234`, and confirm output is `10`.
+- **Generate Primes:** Select option `6`, enter `10`, and confirm prime output is `2, 3, 5, 7`.
+- **Exit:** Select option `7` to confirm clean application exit.
 
-Select option 2. Enter 6 to confirm the output factors are [1, 2, 3, 6][cite: 2].
-
-Select option 3. Enter 5 to confirm the Fibonacci sequence output is [0, 1, 1, 2, 3][cite: 2].
-
-Select option 4. Enter 1234 to confirm the reversed output is 4321[cite: 2].
-
-Select option 5. Enter 1234 to confirm the sum of digits output is 10[cite: 2].
-
-Select option 6. Enter 10 to confirm the prime list generated is 2, 3, 5, 7[cite: 2].
-
-Select option 7 to verify the program exits cleanly[cite: 2].
-
-Validation & Exception Testing:
-
-Enter invalid choice numbers (e.g., 9) at the main menu to confirm the application prompts "invalid choice" without crashing[cite: 2].
-
-Enter non-integer characters when prompted for inputs to test error handling execution[cite: 1].
+### Validation & Exception Testing
+- Enter invalid menu choice numbers (e.g., `9`) to confirm the terminal prints `"invalid choice"` without crashing.
+- Enter non-numeric inputs (e.g., letters) when prompted for integers to verify input handling execution.
