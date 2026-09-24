@@ -1,19 +1,17 @@
-def reverse_num(n: int) -> int:
-    """Reverses the digits of an integer."""
-    n = abs(n)
+def reverse_num(n):
+    """Reverses the given number."""
     rev = 0
     while n > 0:
         digit = n % 10
         rev = rev * 10 + digit
-        n //= 10
+        n = n // 10
     return rev
 
-
-def sum_digits(n: int) -> int:
-    """Calculates the sum of digits of an integer."""
-    n = abs(n)
+def sum_digits(n):
+    """Calculates sum of digits of a number."""
     sm = 0
     while n > 0:
-        sm += n % 10
-        n //= 10
+        digi = n % 10
+        sm = sm + digi
+        n = n // 10
     return sm
