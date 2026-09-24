@@ -28,7 +28,7 @@ The Number Challenge Application is an interactive, menu-driven Python terminal 
    ```bash
    git clone [https://github.com/YOUR_GITHUB_USERNAME/number-challenge.git](https://github.com/YOUR_GITHUB_USERNAME/number-challenge.git)
    cd number-challenge
-## 5. Instructions for Testing
+## Instructions for Testing
 
 ### Functional Testing (Menu Selection)
 - **Prime Check:** Run `python main.py`, select option `1`, enter `7`, and confirm output is `PRIME`.
