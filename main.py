@@ -1,7 +1,7 @@
 import time
-from prime_ops import check_prime, generate_primes
-from sequence_ops import find_factors, fibonacci
-from digit_ops import reverse_num, sum_digits
+from prime import check_prime, generate_primes
+from sequence_operations import find_factors, fibonacci
+from digit_operations import reverse_num, sum_digits
 
 def print_menu():
     print("\n========================================")
